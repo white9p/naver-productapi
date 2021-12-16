@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.channel-list{ margin-top:40px;}
+li{
+  list-style-type: none;
+  display:inline-block;
+  margin-right:12px;
+  font-size:20px;
+}
+.product-list{
+  width:70%;
+  height:600px;
+  border: 1px solid lightslategrey;
+  border-radius: 10px;
+  margin:0 auto;
+}
+
+.search-bar{
+  position: relative;
+}
+.auto-searchwords-box{
+  position:absolute;
+  top:38px;
+  left:calc(50% - 250px);
+  width:500px;
+  height:290px;
+  border:1px solid lightgray;
+  background:white;
+  border-radius: 5px;
+}
+.auto-searchwords-box.disappear{
+  display:none
+}
+.auto-searchwords-box li{
+  display: block;
+  margin:4px 0;
+  font-size: 16px;
+  text-align: left;
+}
